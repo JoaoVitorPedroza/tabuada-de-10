@@ -1,0 +1,51 @@
+body{
+    background-color: aqua;
+    display: flex;
+   
+    flex-direction: column;
+}
+h1{
+    margin-left: 45%;
+}
+footer{
+position: absolute;
+margin-top: 1000px;
+left: 50%;
+}
+.container{
+    width: 800px;
+    height: 500px;
+    background-color: rosybrown;
+    position: absolute;
+    left: 30%;
+    top:20%;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+}
+.conteudo{
+    width: 800px;
+    height: 450px;
+    background-color: rosybrown;
+    border-radius: 10%;
+}
+.quadro{
+    width: 400px;
+    height: 300px;
+    color: white;
+    background-color: rosybrown;
+    border-radius:10%;
+    position: relative;
+    margin-left: 10px;
+    background: -webkit-image-set(url('https://image.freepik.com/fotos-gratis/fundo-de-quadro-negro_53876-110809.jpg'));
+}
+p{
+    margin-top: 20px;
+    margin-left: 10px;
+    position: absolute;
+}
+.resposta{
+    margin-top: 50px;
+    margin-left: 10px;
+    position: absolute;
+}
